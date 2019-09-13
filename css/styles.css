@@ -1,7 +1,7 @@
 .topcontainer {
   background-color: #f3f9fb;
   position: relative;
-  padding-top: 100px;
+  padding: 100px 0px 100px;
 }
 
 .bottom-container {
@@ -10,15 +10,15 @@
   padding: 50px 0 20px;
 }
 
-.bottom-cloud {
-  position: absolute;
-  left: 250px;
-  bottom: 300px;
-}
-
 .top-cloud {
   position: absolute;
-  right: 300px;
+  left: 150px;
+  top: 40px;
+}
+
+.top-cloud2 {
+  position: absolute;
+  right: 150px;
   top: 40px;
 }
 
@@ -29,15 +29,21 @@
 }
 
 .mic {
-  width: 25%;
+  width: 20%;
   float: right;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .pencil {
   width: 25%;
   float: left;
   margin-right: 30px;
+}
+
+.computer {
+  width: 35%;
+  float: right;
+  margin-right: 20px;
 }
 
 .skill-row {
@@ -61,7 +67,7 @@ h1 {
 
 h2 {
   font-family: Montserrat, sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #66BFBF;
   font-weight: normal;
 }
@@ -73,14 +79,15 @@ h3 {
 }
 
 a {
-  color: #11999E;
+  color: #ffffff;
   font-family: "Montserrat", sans-serif;
   margin: 10px 20px;
+  font-size: 1.3rem; 
   text-decoration: none;
 }
 
 a:hover {
-  color: #eaf6f6;
+  color: #11999E;
 }
 
 p {
